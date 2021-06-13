@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     use HasFactory;
-    public function posts(){
+    public function activities(){
         return $this->hasMany(Activity::class);
       }
 
